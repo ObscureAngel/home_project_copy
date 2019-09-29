@@ -1,0 +1,74 @@
+// Version allemande par Mario
+
+//----------
+//index.php
+//----------
+
+Willkommen in ISNRacing !
+Übersetzen
+Spiel laden
+Spiel fortsetzen
+Benutzer :
+Passwort :
+Fortsetzen
+Besucher
+
+//----------
+//form_init.php
+//----------
+
+Ein Spiel starten !
+Spielername :
+Passwort :
+Farbe :
+Rot
+Gelb
+Grün
+Blau
+Violett
+Sprache
+Speichern
+
+//----------
+//game_page.php
+//----------
+
+Euer Spiel wurde gespeichert am
+um
+Ihr seit der Spieler :
+Stand menu
+Informationen :
+Runden :
+Position auf der Rennbahn :
+Zustand der Reifen :
+Restkrafstoff :
+Actions
+Reifen Wechseln  :
+Füllung vom Öltank am stand :
+Halt am stand
+Sie haben gewonnen !
+Sie haben verloren !
+Sie sind in panne !
+Sie haben verloren !
+Das Spiel ist beendet !
+
+//---------
+//footer.html
+//---------
+
+Entwickelt von DarkAngel
+Version
+Changelog
+Copyright &copy; 2015 - Alle Rechte vorbehalten
+
+//---------
+//account_page.php
+//---------
+
+Sich auslogen
+Die Seite von
+Rennbahn
+Es geht loss
+Ihre Statistiken
+Rennen gewonnen
+Rennen verloren

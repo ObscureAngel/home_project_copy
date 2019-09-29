@@ -1,0 +1,393 @@
+body {
+	/*background-image: url("bg2.png");
+	background-repeat: no-repeat;
+	background-position: left top;
+	background-attachment: fixed;*/
+	font-family: "Century Gothic", sans-serif;
+	font-size: 10pt;
+}
+
+textarea {
+	overflow: auto
+}
+
+li #user {
+	display: block;
+	background-color: #090909;
+	color: white;
+	font-weight: bold;
+	padding: 8px 16px;
+}
+
+nav.li-vertical>ul>li>a {
+	display: block;
+	background-color: #090909;
+	color: white;
+	padding: 8px 16px;
+}
+
+nav.li-vertical>ul>li>a:hover {
+	color: black;
+	background-color: rgb(239, 177, 0);
+	/*font-weight: bold;
+	padding-top: 7px;*/
+}
+
+nav.li-horizontal>ul>li {
+	display: inline-block;
+}
+
+nav.li-horizontal {
+	text-align: center;
+}
+
+nav.li-horizontal>ul>li>a:hover {
+	background-color: rgb(116, 116, 116);
+	color: black;
+	padding: 8px 16px;
+}
+
+nav.li-horizontal>ul>li>a.active {
+	background-color: rgb(116, 116, 116);
+	color: black;
+	padding: 8px 16px;
+}
+
+nav.li-horizontal>ul>li>a {
+	background-color: #090909;
+	color: white;
+	padding: 8px 16px;
+}
+
+header>h1 {
+	text-align: center;
+	vertical-align: middle;
+	font-size: 28pt;
+	background-color: rgb(239, 177, 0);
+	width: 890px;
+	top: 10px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.navigation {
+	position: fixed;
+	width: 225px;
+	top: 130px;
+	left: -10px;
+}
+
+.table_resultat {
+	background-color: rgba(195, 195, 195, 0.8);
+	color: black;
+	padding: 4px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	width: 875px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 125px;
+	height: 300px;
+	overflow: auto;
+}
+
+.table_resultat table {
+	border: 3px yellow solid;
+	border-collapse: collapse;
+	margin: auto;
+}
+
+.table_resultat table a {
+	display: block;
+	color: #0000FF;
+}
+
+.cou {
+	text-align: center;
+	border: 1px yellow solid;
+	padding-bottom: 2px;
+	padding-top: 2px;
+}
+
+.table_resultat table tr th {
+	text-align: center;
+	border: 1px yellow solid;
+	border-bottom: 3px yellow solid;
+	padding-bottom: 5px;
+	padding-top: 5px;
+}
+
+.nom {
+	width: 196px;
+	text-align: left;
+	padding-left: 5px;
+}
+
+.prenom {
+	width: 196px;
+	text-align: left;
+	padding-left: 5px;
+}
+
+.naissance {
+	width: 75px;
+}
+
+.pays {
+	width: 80px;
+}
+
+a {
+	text-decoration: none;
+}
+
+.identite {
+	width: 750px;
+	height: 100px;
+	background-color: rgb(239, 177, 0);
+	color: black;
+	border: 0px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 50px;
+}
+
+.identite legend {
+	background-color: rgb(239, 177, 0);
+	color: black;
+	border: 1px black solid;
+	padding-left: 5px;
+	padding-right: 5px;
+	font-size: 15pt;
+	font-weight: bold;
+}
+
+.identite table {
+	width: 750px;
+	height: 75px;
+	margin-left: 30px;
+}
+
+abbr {
+	display: block;
+}
+
+form .envoi {
+	display: block;
+	background-color: #090909;
+	color: white;
+	padding: 8px 16px;
+	border: 0px;
+	width: 100px;
+	margin: auto;
+}
+
+form .recherche {
+	text-align: center;
+	display: block;
+	background-color: #090909;
+	color: white;
+	padding: 8px 16px;
+	border: 0px;
+	width: 150px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+form .envoi:hover {
+	color: black;
+	background-color: rgb(239, 177, 0);
+	font-weight: bold;
+	padding-top: 8px;
+}
+
+form .recherche:hover {
+	color: black;
+	background-color: rgb(239, 177, 0);
+	font-weight: bold;
+	padding-top: 7px;
+}
+
+form {
+	width: 750px;
+	background-color: rgb(139, 200, 39);
+	color: black;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 50px;
+	padding-top: 10px;
+	padding-bottom: 35px;
+}
+
+form table tr td input {
+	margin: 2px;
+	display: block;
+}
+
+form table {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+#search_epreuve {
+	width: 430px;
+	height: 40px;
+	padding-top: 10px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#ajout_annee {
+	width: 356px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#ajout_pays {
+	width: 351px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#ajout_epreuve {
+	width: 822px;
+	height: 125px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.participation {
+	width: 950px;
+	margin-top: 25px;
+	background-color: rgb(239, 177, 0);
+	color: black;
+	border: 0px;
+	margin-right: auto;
+	margin-left: auto;
+	max-height: 275px;
+}
+
+.participation table {
+	text-align: center;
+	border: 3px black solid;
+	border-collapse: collapse;
+}
+
+.participation legend {
+	background-color: rgb(239, 177, 0);
+	color: black;
+	border: 1px black solid;
+	padding-left: 5px;
+	padding-right: 5px;
+	font-size: 15pt;
+	font-weight: bold;
+}
+
+.participation table tr th {
+	border: 1px black solid;
+	border-bottom: 3px black solid;
+}
+
+.participation table tr td {
+	border: 1px black solid;
+}
+
+.participation table tbody {
+	display: block;
+	height: 250px;
+	overflow-y: scroll;
+	max-height: 175px;
+}
+
+.participation table thead {
+	display: block;
+}
+
+.participation table a {
+	display: block;
+	color: #0000FF;
+}
+
+.erreur {
+	background-color: red;
+	color: black;
+	text-align: center;
+	height: 50px;
+	width: 150px;
+	vertical-align: middle;
+	margin-bottom: 10px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.classement {
+	width: 704px;
+	margin-top: 25px;
+	background-color: rgb(239, 177, 0);
+	color: black;
+	border: 0px;
+	margin-right: auto;
+	margin-left: auto;
+	max-height: 275px;
+}
+
+.classement table {
+	text-align: center;
+	border: 3px black solid;
+	border-collapse: collapse;
+}
+
+.classement legend {
+	background-color: rgb(239, 177, 0);
+	color: black;
+	border: 1px black solid;
+	padding-left: 5px;
+	padding-right: 5px;
+	font-size: 15pt;
+	font-weight: bold;
+}
+
+.classement table tr th {
+	border: 1px black solid;
+	border-bottom: 3px black solid;
+}
+
+.classement table tr td {
+	border: 1px black solid;
+}
+
+.classement table tbody {
+	display: block;
+	height: 250px;
+	overflow-y: scroll;
+	max-height: 175px;
+}
+
+.classement table thead {
+	display: block;
+}
+
+.classement table a {
+	display: block;
+	color: #0000FF;
+}
+
+.container {
+	margin-top: 50px;
+	margin-left: 250px;
+	text-align: center;
+}
+
+.container>h1 {
+	text-align: left;
+	margin-left: 75px;
+}
+
+.container>div {
+	
+	text-align: left;
+}

@@ -1,0 +1,9 @@
+*.zip
+.buildpath
+.project
+.settings/
+HOME-Project.code-workspace
+
+angular/
+
+bootstrap/

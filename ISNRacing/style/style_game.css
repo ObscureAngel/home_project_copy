@@ -1,0 +1,112 @@
+﻿body {
+text-align : center;
+font-family : Tahoma;
+
+}
+.contact {
+vertical-align : middle;
+text-align : center;
+
+}
+.game {
+border : 2px solid silver;
+width : 1050px;
+
+}
+.inline {
+display : inline-block;
+vertical-align : top;
+text-align : center;
+
+}
+.img_voiture {
+position : relative;
+width : 16px;
+height : 16px;
+
+}
+.panneessence {
+color : red;
+
+}
+.wip {
+width : 700px;
+border : 2px solid silver;
+margin : auto;
+
+}
+article {
+background-color : rgba(256,256,256,0.9);
+margin : auto;
+text-align : center;
+padding-bottom : 5px;
+font-family : tahoma;
+
+}
+.img_menu {
+margin : auto;
+vertical-align : middle;
+
+}
+header {
+border : 2px solid silver;
+background-color : white;
+font-size : 32px;
+font-family : Impact;
+margin-top : auto;
+margin-bottom : 5px;
+margin-left : auto;
+margin-right : auto;
+
+}
+footer {
+border : 2px solid silver;
+background-color : rgba(100,100,100,0.95);
+margin-top : 5px;
+margin-bottom : auto;
+margin-left : auto;
+margin-right : auto;
+height : 112px;
+vertical-align : bottom;
+text-align : center;
+
+}
+.common {
+margin : auto;
+text-align :center;
+
+}
+.foot {
+font-family : tahoma;
+font-style : italic;
+font-size : 16px;
+text-align :center;
+vertical-align : middle;
+
+}
+.contact {
+/*vertical-align : ;*/
+
+}
+.changelog {
+margin-top : 10px;
+margin-bottom : 5px;
+margin-left : 5px;
+margin-right : 5px;
+border : 2px solid silver;
+background-color : rgba(256,256,256,0.9);
+
+}
+#tires {
+	top : 10px;
+	left : 0px;
+	position : absolute;
+	
+}
+#navPanel {
+	display : none;
+	position : fixed;
+	left : 0px;
+	z-index : 9;
+	background-color : rgba(100,100,100,0.95);
+}

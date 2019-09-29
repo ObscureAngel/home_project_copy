@@ -1,0 +1,4 @@
+- Deux méthodes de cryptage (complexe et simple)
+- Méthode complex remplace les lettres par n'importe quoi (alphanumérique, caractères spéciaux iso-8859-1)
+=> difficile à retenir par coeur
+- CryptKey peut servir à retrouver le pass original

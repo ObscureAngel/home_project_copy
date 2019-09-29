@@ -1,0 +1,74 @@
+// Version allemande par Mario
+
+//----------
+//index.php
+//----------
+
+Bienvenue sur ISNRacing !
+Traduire
+Démarrer une partie
+Continuer une partie
+Identifiant :
+Mot de passe :
+Continuer
+visiteurs
+
+//----------
+//form_init.php
+//----------
+
+Commencer une partie !
+Nom du joueur :
+Mot de passe :
+Couleur :
+Rouge
+Jaune
+Vert
+Bleu
+Violet
+Langue
+Enregistrer
+
+//----------
+//game_page.php
+//----------
+
+Votre partie a été sauvegardée et stopée le
+à
+Vous êtes le joueur :
+Menu du stand
+Informations :
+Tours :
+Position sur le circuit :
+Etat des pneus :
+Carburant restant :
+Actions
+Changement de pneumatiques :
+Remplissage du réservoir à l'arrêt au stand :
+Arrêt au stand
+Vous avez gagné !
+Vous avez perdu !
+Vous êtes en panne d'essence !
+Vous avez perdu !
+La partie est terminée !
+
+//---------
+//footer.html
+//---------
+
+Développé par DarkAngel
+Version
+Journal des changements
+Copyright &copy; 2015 - Tous Droits Réservés
+
+//---------
+//account_page.php
+//---------
+
+Se déconnecter
+La page de
+Circuits
+C'est parti
+Vos statistiques
+Courses gagnées
+Courses perdues
