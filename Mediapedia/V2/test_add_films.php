@@ -3,6 +3,7 @@ require_once 'connectors/config.inc.php';
 require_once 'connectors/AddRequest.class.php';
 require_once 'connectors/GetRequest.class.php';
 require_once 'models/Movie.class.php';
+require_once 'controller/BookController.class.php';
 
 $mov_test = new Movie(1, "Testons", "FN", FALSE);
 $mov_test->setDuration(90);
@@ -12,6 +13,8 @@ try {
 	echo $e->getMessage()." ";
 }
 
+$test = new BookController();
+var_dump($test->fct_enregistreEnBase(null));
 //echo $mov_test->getParent()->toString();
 var_dump($mov_test); 
 

@@ -1,15 +1,17 @@
 <?php
-require_once "../models/Book.class.php";
-require_once "../connectors/AddRequest.class.php";
-require_once "../connectors/GetRequest.class.php";
-require_once "../connectors/EditRequest.class.php";
-require_once "../connectors/DeleteRequest.class.php";
+require_once "Mediapedia/V2/models/Book.class.php";
+require_once "BddController.class.php";
 
 class BookController {
 
-    private static AddRequest addBdd = new AddRequest();
-    private static GetRequest getBdd = new GetRequest();
-    private static EditRequest editBdd = new EditRequest();
-    private static DeleteRequest deleteBdd = new DeleteRequest();
+    private $bddController;
     
+    public function __construct() {
+        BddController::fct_initialiserBddController();
+    }
+
+    public function fct_enregistreEnBase($po_book) {
+        BddController::$cso_addRequest->fct_addBook(null);
+        return true;
+    }
 }

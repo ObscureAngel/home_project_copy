@@ -55,7 +55,7 @@ class PDOMysql  extends PDO {
 	/**
 	 * @return string
 	 */
-	public function getUser() {
+	public function fct_getUser() {
 		return $this->dbuser;
 	}
 }

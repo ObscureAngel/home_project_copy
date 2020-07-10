@@ -1,4 +1,6 @@
 <?php
+
+#region BDD
 /*
  * Table names
  */
@@ -105,7 +107,9 @@ define('COL_LOG_COLUMN_NAME', "columnName");
 
 // TBL_LOG_APP
 define('COL_LOG_PAGE_NAME', "pageName");
+#endregion
 
+#region Errors
 /*
  * Error messages and codes
  */
@@ -120,3 +124,4 @@ define('CODE_NOT_INSERTED', 20002);
 //Data already inserted
 define('MSG_ALREADY_INSERTED', "Your data have already been inserted.");
 define('CODE_ALREADY_INSERTED', 20003);
+#endregion

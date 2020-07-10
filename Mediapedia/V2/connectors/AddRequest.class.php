@@ -1,54 +1,44 @@
 <?php
 require_once 'config.inc.php';
+require_once 'PDOMysql.class.php';
 
 class AddRequest {
 
 	/**
 	 * @var PDOMysql
 	 */
-	private $bdd;
+	public $co_bdd;
 
-	function __construct($dbuser = NULL, $dbpswd = NULL) {
-		if ($dbuser != NULL) {
-			if ($dbuser != $this->bdd->getUser()) {
-				unlink("PDOMysql.txt");
-			}
-		}
-
-		if (!file_exists("PDOMysql.txt") OR !isset($this->bdd)) {
-			$this->bdd = new PDOMysql($dbuser, $dbpswd);
-			file_put_contents("PDOMysql.txt", serialize($this->bdd));
-		} else if (file_exists("PDOMysql.txt")) {
-			$this->bdd = unserialize(file_get_contents("PDOMysql.txt"));
-		}
+	public function __construct($ps_dbuser = NULL, $ps_dbpswd = NULL) {
+		$this->co_bdd = new PDOMysql($ps_dbuser, $ps_dbpswd);
 	}
 
-	function addResource($resource) {
+	public function fct_addResource($resource) {
 
 		return true;
 	}
 
-	function addBook($book) {
+	public function fct_addBook($book) {
 
 		return true;
 	}
 
-	function addGame($game) {
+	public function fct_addGame($game) {
 
 		return true;
 	}
 
-	function addMovie($movie) {
+	public function fct_addMovie($movie) {
 
 		return true;
 	}
 
-	function addMusic($music) {
+	public function fct_addMusic($music) {
 
 		return true;
 	}
 
-	function addSystemRequirement($systemRequirement) {
+	public function fct_addSystemRequirement($systemRequirement) {
 
 		return true;
 	}

@@ -23,7 +23,7 @@ class Book extends Resource {
 	/**
 	 * @var Category
 	 */
-	private $category
+	private $category;
 	
 	function __construct() {
 		;
