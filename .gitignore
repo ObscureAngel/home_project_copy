@@ -1,11 +1,15 @@
+# Ignore zip archive
 *.zip
+
+# Ignore config file
+home_project_copy.code-workspace
 .buildpath
 .project
 .settings/
-HOME-Project.code-workspace
 
+# Ignore downloadable libs
 angular/
-
 bootstrap/
 
+# Ignore generic count file
 ISNRacing/txt/compteur_visites.txt
